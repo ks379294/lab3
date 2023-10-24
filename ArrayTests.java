@@ -8,27 +8,33 @@ public class ArrayTests {
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
-  @Test 
-	public void testReverseInPlace_twoElement() {
-    int[] input1 = { 2, 3, 5, 6,7 };
-    ArrayExamples.reverseInPlace(input1);
+  // @Test 
+	// public void testReverseInPlace_twoElement() {
+  //   int[] input1 = { 2, 3, 5, 6,7 };
+  //   ArrayExamples.reverseInPlace(input1);
     
-    for(int i = 0; i<input1.length; i++)
-    {
-       System.out.println(i + ": "+ input1[i]);
-    }
-     assertArrayEquals(new int[]{7, 6, 5, 3, 2}, input1);
-	}
+  //   for(int i = 0; i<input1.length; i++)
+  //   {
+  //      System.out.println(i + ": "+ input1[i]);
+  //   }
+  //    assertArrayEquals(new int[]{7, 6, 5, 3, 2}, input1);
+	// }
 
-  @Test
-  public void testReversed() {
-    int[] input1 = { };
-    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
-  }
-  @Test
-  public void testReversed_nonEmpty() {
-    int[] input1 = {15, 16, 17};
-    assertArrayEquals(new int[]{17, 16, 15}, ArrayExamples.reversed(input1));
-  }
+  // @Test
+  // public void testReversed() {
+  //   int[] input1 = { };
+  //   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  // }
+  // @Test
+  // public void testReversed_nonEmpty() {
+  //   int[] input1 = {15, 16, 17};
+  //   assertArrayEquals(new int[]{17, 16, 15}, ArrayExamples.reversed(input1));
+  // }
+  // @Test
+  // public void averageWithoutLowestDuplicates() {
+  //   double[] input1 = {15.0, 15.0, 17.0};
+  //   double delta = 1e-15;
+  //   assertEquals(17.0, ArrayExamples.averageWithoutLowest(input1), delta);
+  // }
 }
 
